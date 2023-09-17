@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/BooksWagonAssignment">
+        <classes>
+            <class name="com.selenium.TestPage">
+                <methods>
+                    <include name="loginPage"/>
+                    <include name="searchingBookRequired"/>
+                    <include name="selectingRequiredBook"/>
+                    <include name="buyingTheBook"/>
+                    <include name="checkingIfBookAddedToCart"/>
+                    <include name="logoutPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
