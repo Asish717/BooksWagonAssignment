@@ -2,6 +2,8 @@ package com.selenium;
 
 import com.selenium.base.BaseClass;
 import com.selenium.pages.*;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -27,6 +29,7 @@ public class TestPage extends BaseClass {
         loggingOut=new LoggingOut(driver);
     }
 
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 1)
     public void loginPage() throws InterruptedException {
         String loginResultCheck=loginPage.loginScreen();
@@ -34,6 +37,7 @@ public class TestPage extends BaseClass {
         logger.info("Verified account logged in");
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2)
     public void searchingBookRequired(){
         String searchResultCheck=searchRequiredBook.searchRequiredBook();
@@ -41,6 +45,7 @@ public class TestPage extends BaseClass {
         logger.info("Verified book searched is correct");
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 3)
     public void selectingRequiredBook() throws InterruptedException {
         String selectedBookCheck=selectingBook.bookSelected();
@@ -48,6 +53,7 @@ public class TestPage extends BaseClass {
         logger.info("Verified book selected is correct");
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 4)
     public void buyingTheBook() throws AWTException, InterruptedException {
         String checkingIfBookAddedOrNot=buyingBook.buyingBookOperation();
@@ -55,6 +61,7 @@ public class TestPage extends BaseClass {
         logger.info("Verified if book added");
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 5)
     public void checkingIfBookAddedToCart() throws AWTException {
         String checkingIfCartOpenedOrNot=checkingCart.checkingTheCart();
@@ -62,6 +69,7 @@ public class TestPage extends BaseClass {
         logger.info("Verified book is in cart");
     }
 
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 6)
     public void logoutPage() throws AWTException, InterruptedException {
         String checkingIfLoggedOutOrNot=loggingOut.logoutOption();

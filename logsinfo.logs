@@ -1,18 +1,18 @@
-23:16:14,248  INFO com.selenium.base.BaseClass<strong>{1}</strong>:16 - Launching the browser
-23:16:22,938  INFO com.selenium.base.BaseClass<strong>{1}</strong>:19 - Launching the BooksWagon site
-23:16:25,547  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:29 - Entering to login page
-23:16:25,724  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:32 - Details filled
-23:16:26,800  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:34 - Login successful
-23:16:26,846  INFO com.selenium.TestPage<strong>{1}</strong>:34 - Verified account logged in
-23:16:27,026  INFO com.selenium.pages.SearchingBook<strong>{1}</strong>:25 - Entered book name
-23:16:30,508  INFO com.selenium.pages.SearchingBook<strong>{1}</strong>:27 - Pressed search button
-23:16:30,545  INFO com.selenium.TestPage<strong>{1}</strong>:41 - Verified book searched is correct
-23:16:30,808  INFO com.selenium.pages.SelectingBook<strong>{1}</strong>:30 - List of books printed
-23:16:36,418  INFO com.selenium.pages.SelectingBook<strong>{1}</strong>:32 - Required book selected
-23:16:37,453  INFO com.selenium.TestPage<strong>{1}</strong>:48 - Verified book selected is correct
-23:16:40,592  INFO com.selenium.pages.BuyingBook<strong>{1}</strong>:27 - Clicked on Buy now
-23:16:40,625  INFO com.selenium.TestPage<strong>{1}</strong>:55 - Verified if book added
-23:16:40,642  INFO com.selenium.pages.CheckingCart<strong>{1}</strong>:26 - Opened cart
-23:16:42,100  INFO com.selenium.TestPage<strong>{1}</strong>:62 - Verified book is in cart
-23:16:42,640  INFO com.selenium.pages.LoggingOut<strong>{1}</strong>:28 - Successfully logged out
-23:16:43,295  INFO com.selenium.TestPage<strong>{1}</strong>:69 - Verified if successfully logged out
+16:49:00,379  INFO com.selenium.base.BaseClass<strong>{1}</strong>:16 - Launching the browser
+16:49:06,606  INFO com.selenium.base.BaseClass<strong>{1}</strong>:19 - Launching the BooksWagon site
+16:49:08,969  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:29 - Entering to login page
+16:49:09,142  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:32 - Details filled
+16:49:09,847  INFO com.selenium.pages.LoginPage<strong>{1}</strong>:34 - Login successful
+16:49:09,897  INFO com.selenium.TestPage<strong>{1}</strong>:37 - Verified account logged in
+16:49:10,077  INFO com.selenium.pages.SearchingBook<strong>{1}</strong>:25 - Entered book name
+16:49:10,828  INFO com.selenium.pages.SearchingBook<strong>{1}</strong>:27 - Pressed search button
+16:49:10,863  INFO com.selenium.TestPage<strong>{1}</strong>:45 - Verified book searched is correct
+16:49:11,105  INFO com.selenium.pages.SelectingBook<strong>{1}</strong>:30 - List of books printed
+16:49:14,306  INFO com.selenium.pages.SelectingBook<strong>{1}</strong>:32 - Required book selected
+16:49:15,346  INFO com.selenium.TestPage<strong>{1}</strong>:53 - Verified book selected is correct
+16:49:18,569  INFO com.selenium.pages.BuyingBook<strong>{1}</strong>:27 - Clicked on Buy now
+16:49:18,601  INFO com.selenium.TestPage<strong>{1}</strong>:61 - Verified if book added
+16:49:18,609  INFO com.selenium.pages.CheckingCart<strong>{1}</strong>:26 - Opened cart
+16:49:18,891  INFO com.selenium.TestPage<strong>{1}</strong>:69 - Verified book is in cart
+16:49:19,416  INFO com.selenium.pages.LoggingOut<strong>{1}</strong>:28 - Successfully logged out
+16:49:19,841  INFO com.selenium.TestPage<strong>{1}</strong>:77 - Verified if successfully logged out
